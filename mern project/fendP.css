@@ -1,0 +1,241 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(hintersee-g9c41128e9_1920.jpg); 
+    background-repeat: no-repeat;   
+    background-size: 100%; 
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 17px;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+}
+
+.left img{
+    width: 100px;
+}
+
+#text{
+    text-align: center;
+    color: azure;
+}
+
+.mid{
+    display: block;
+    width: 33%;
+    margin: 17px auto;
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    display: inline-block;
+    top: 17px;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-family: 'Kanit', sans-serif;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 2px 19px;
+}
+
+.navbar li a:hover{
+    color: rgb(180, 85, 13);
+}
+
+.btn{
+    margin: 9px;
+    background-color: white;
+    padding: 4px 14px;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 30px;
+}
+
+.btn:hover{
+color: white;
+cursor: pointer;
+background-color: cadetblue;
+}
+
+.topbar{
+    background-color:rgb(50, 92, 108);
+}
+
+.searchbar{
+    border: 2px solid greenyellow;
+    background-color: rgba(124, 57, 57,0);
+    margin: 40px 500px;
+    padding: 4px 15px;
+    border-radius: 30px;
+    border-width: 5px;
+}
+
+#srch{
+    background-color: rgba(124, 57, 57,0);
+    border-color:rgba(124, 57, 57,0);
+    font-family: 'Kanit', sans-serif;
+    width:462px;
+}
+
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.travel_1{
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.travel_2{
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+#singapore{
+    cursor: pointer;
+    border: 2px solid white ;
+    margin: 25px;
+    padding: 2px 2px;
+    display:inline-block;
+    width: 300px;
+    height: 240px;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url(singapore.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.comm:hover{
+    transition: transform .4s ease;
+    transform: scale(1.1);
+}
+
+#thailand{
+    cursor: pointer;
+    border: 2px solid white ;
+    margin: 25px;
+    padding: 2px 2px;
+    display:inline-block;
+    width: 300px;
+    height: 240px;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url(thailand.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#vietnam{
+    cursor: pointer;
+    border: 2px solid white ;
+    margin: 25px;
+    padding: 2px 2px;
+    display:inline-block;
+    width: 300px;
+    height: 240px;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url(vietnam.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#bhutan{
+    cursor: pointer;
+    border: 2px solid white ;
+    margin: 25px;
+    padding: 2px 2px;
+    display:inline-block;
+    width: 300px;
+    height: 240px;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url(bhutan.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#japan{
+    cursor: pointer;
+    border: 2px solid white ;
+    margin: 25px;
+    padding: 2px 2px;
+    display:inline-block;
+    width: 300px;
+    height: 240px;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url(japan.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#maldives{
+    cursor: pointer;
+    border: 2px solid white ;
+    margin: 25px;
+    padding: 2px 2px;
+    display:inline-block;
+    width: 300px;
+    height: 240px;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url(Maldives.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#nepal{
+    cursor: pointer;
+    border: 2px solid white ;
+    margin: 25px;
+    padding: 2px 2px;
+    display:inline-block;
+    width: 300px;
+    height: 240px;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url(nepal.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#mauritius{
+    cursor: pointer;
+    border: 2px solid white ;
+    margin: 25px;
+    padding: 2px 2px;
+    display:inline-block;
+    width: 300px;
+    height: 240px;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url(mauritius.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.t{
+    margin: 178px 12px;
+    color: rgb(7, 80, 163);
+}
